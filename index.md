@@ -23,8 +23,9 @@ While this write-up is triggered at this time by the ongoing debate around OP_RE
 In order to understand bitcoin's governance, it's best to clear all ideas about governance models we knew, and think of the most audacious and unique property of bitcoin that bitcoiners agree we should strive for: censorship-resistant digital money. 
 
 Everything in bitcoin's governance is therefore optimized to solving for the following two fundamental insights:
-1) The only way to achieve censorship-resistant digital money is through free users. 
-2) The only way to have free users is through free software.
+
+1. **The only way to achieve censorship-resistant digital money is through free users.**
+2. **The only way to have free users is through free software.**
 
 Censorship-resistance requires free users.
 

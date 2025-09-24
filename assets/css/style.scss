@@ -140,11 +140,42 @@ html, body {
 }
 
 .post-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
 }
 
 .post-content li strong {
   color: #f7931a;
+}
+
+/* Special styling for key insights lists */
+.post-content ol li strong,
+.post-content ul li strong {
+  color: #f7931a;
+  font-weight: 600;
+}
+
+/* Enhanced list number styling */
+.post-content ol {
+  counter-reset: item;
+  padding-left: 0;
+}
+
+.post-content ol > li {
+  display: block;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.post-content ol > li::before {
+  content: counter(item) ".";
+  counter-increment: item;
+  color: #f7931a;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  font-size: 1.1rem;
 }
 
 /* Blockquotes */
