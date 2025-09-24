@@ -320,7 +320,8 @@ th {
 
 .post-content ul li:has(a[href*="damus.io"]),
 .post-content ul li:has(a[href*="x.com"]),
-.post-content ul li:has(a[href*="stacker.news"]) {
+.post-content ul li:has(a[href*="stacker.news"]),
+.post-content ul li:has(a[href*="reddit.com"]) {
   margin-bottom: 0.5rem;
 }
 
@@ -334,6 +335,10 @@ th {
 
 .post-content ul li a[href*="stacker.news"]:before {
   content: "⚡ ";
+}
+
+.post-content ul li a[href*="reddit.com"]:before {
+  content: "🔶 ";
 }
 
 /* Responsive Design */
