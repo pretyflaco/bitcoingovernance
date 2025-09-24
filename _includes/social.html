@@ -1,0 +1,15 @@
+{%- assign social = site.minima.social_links | default: site.data.social -%}
+
+<ul class="social-media-list">
+  {%- if site.github_username -%}
+  <li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">Github username: {{ site.github_username| escape }}</span></a></li>
+  {%- endif -%}
+  
+  {%- if site.twitter_username -%}
+  <li><a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">Twitter username: {{ site.twitter_username| escape }}</span></a></li>
+  {%- endif -%}
+  
+  {%- if site.nostr_npub -%}
+  <li><span>🟣 <span class="username">Nostr npub: {{ site.nostr_npub| escape }}</span></span></li>
+  {%- endif -%}
+</ul>
