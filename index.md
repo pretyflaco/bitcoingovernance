@@ -167,3 +167,4 @@ Featured image is from [NEO GENESIS BITCOINIZATION](https://x.com/munnybadger/st
 Join the conversation about this article:
 - 🟣 [Nostr discussion](https://damus.io/nevent1qqsypt0plwheeawsxtnmpfytjc4wf3ww97a0a2cu3m00tyg3mjj3qsgf9ta36)
 - 🐦 [Twitter thread](https://x.com/_pretyflaco/status/1970804074674049484)
+- ⚡ [Stacker News discussion](https://stacker.news/items/1234973)
