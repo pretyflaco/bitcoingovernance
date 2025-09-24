@@ -312,6 +312,25 @@ th {
   display: inline-block;
 }
 
+/* Discussion section styling */
+.post-content h2 + p:contains("Join the conversation"),
+.post-content strong:contains("Discussion") {
+  color: #f7931a;
+}
+
+.post-content ul li:has(a[href*="damus.io"]),
+.post-content ul li:has(a[href*="x.com"]) {
+  margin-bottom: 0.5rem;
+}
+
+.post-content ul li a[href*="damus.io"]:before {
+  content: "🟣 ";
+}
+
+.post-content ul li a[href*="x.com"]:before {
+  content: "🐦 ";
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .wrapper {

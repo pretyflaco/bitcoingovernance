@@ -158,4 +158,12 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 [![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
-Featured image is from NEO GENESIS BITCOINIZATION, a love letter to the Bitcoin project and everyone pushing for it to reach it's fullest potential. https://x.com/munnybadger/status/1373053401345495047
+Featured image is from [NEO GENESIS BITCOINIZATION](https://x.com/munnybadger/status/1373053401345495047), a love letter to the Bitcoin project and everyone pushing for it to reach it's fullest potential.
+
+---
+
+**Discussion**
+
+Join the conversation about this article:
+- 🟣 [Nostr discussion](https://damus.io/nevent1qqsypt0plwheeawsxtnmpfytjc4wf3ww97a0a2cu3m00tyg3mjj3qsgf9ta36)
+- 🐦 [Twitter thread](https://x.com/_pretyflaco/status/1970804074674049484)
