@@ -4,16 +4,17 @@
 @import "minima";
 
 /* Cool Dark Theme for Bitcoin Governance Site */
+/* Using !important to override Minima theme defaults */
 
 /* Dark theme base */
 body {
-  background-color: #0d1117;
-  color: #e6edf3;
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
 }
 
 .site-header {
-  background-color: #161b22;
-  border-bottom: 2px solid #f7931a;
+  background-color: #161b22 !important;
+  border-bottom: 2px solid #f7931a !important;
 }
 
 .site-title {
@@ -22,26 +23,30 @@ body {
 }
 
 .site-nav .page-link {
-  color: #e6edf3;
+  color: #e6edf3 !important;
 }
 
 .site-nav .page-link:hover {
-  color: #f7931a;
+  color: #f7931a !important;
 }
 
 /* Main content area */
 .page-content {
-  background-color: #0d1117;
+  background-color: #0d1117 !important;
 }
 
 .wrapper {
-  background-color: #0d1117;
+  background-color: #0d1117 !important;
+}
+
+.main-content {
+  background-color: #0d1117 !important;
 }
 
 /* Post content styling */
 .post-content {
-  background-color: #0d1117;
-  color: #e6edf3;
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
   line-height: 1.7;
   font-size: 1.1rem;
 }
@@ -131,9 +136,9 @@ pre {
 
 /* Footer */
 .site-footer {
-  background-color: #161b22;
-  border-top: 1px solid #21262d;
-  color: #e6edf3;
+  background-color: #161b22 !important;
+  border-top: 1px solid #21262d !important;
+  color: #e6edf3 !important;
 }
 
 .footer-col-wrapper {
@@ -192,4 +197,50 @@ th {
   box-shadow: none;
   border: none;
   display: inline-block;
+}
+
+/* Additional overrides for Minima theme */
+html {
+  background-color: #0d1117 !important;
+}
+
+.page {
+  background-color: #0d1117 !important;
+}
+
+.home {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+}
+
+.post {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+}
+
+article {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+}
+
+.post-header {
+  color: #e6edf3 !important;
+}
+
+.post-title {
+  color: #f7931a !important;
+}
+
+/* Ensure all paragraphs use dark theme */
+p {
+  color: #e6edf3 !important;
+}
+
+/* Override any default link colors */
+a:not(.post-content a) {
+  color: #58a6ff !important;
+}
+
+a:not(.post-content a):hover {
+  color: #79c0ff !important;
 }
