@@ -230,18 +230,39 @@ th {
 
 .contact-list li,
 .social-media-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem !important;
+}
+
+.social-item strong {
+  color: #f7931a;
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
 }
 
 .contact-list a,
 .social-media-list a {
   color: #58a6ff;
   text-decoration: none;
+  word-break: break-all;
 }
 
 .contact-list a:hover,
 .social-media-list a:hover {
   color: #79c0ff;
+}
+
+.nostr-key {
+  color: #e6edf3;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.85rem;
+  word-break: break-all;
+  line-height: 1.4;
 }
 
 /* License section styling */
