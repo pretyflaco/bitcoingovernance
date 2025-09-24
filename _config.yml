@@ -8,7 +8,6 @@ baseurl: "/bitcoingovernance"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap

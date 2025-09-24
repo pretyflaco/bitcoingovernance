@@ -1,54 +1,112 @@
 ---
 ---
 
-@import "minima";
-
 /* Cool Dark Theme for Bitcoin Governance Site */
-/* Using !important to override Minima theme defaults */
+/* Custom theme without Minima dependencies */
 
-/* Dark theme base */
-body {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
+/* CSS Reset and Base Styles */
+* {
+  box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
 .site-header {
-  background-color: #161b22 !important;
-  border-bottom: 2px solid #f7931a !important;
+  background-color: #161b22;
+  border-bottom: 2px solid #f7931a;
+  padding: 1rem 0;
 }
 
 .site-title {
-  color: #f7931a !important;
+  color: #f7931a;
+  font-size: 1.8rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
-.site-nav .page-link {
-  color: #e6edf3 !important;
+.site-title:hover {
+  color: #ffa726;
+  text-decoration: none;
 }
 
-.site-nav .page-link:hover {
-  color: #f7931a !important;
-}
-
-/* Main content area */
+/* Main Content */
 .page-content {
-  background-color: #0d1117 !important;
+  background-color: #0d1117;
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
 }
 
-.wrapper {
-  background-color: #0d1117 !important;
+/* Post Styles */
+.post {
+  background-color: #0d1117;
 }
 
-.main-content {
-  background-color: #0d1117 !important;
+.post-header {
+  margin-bottom: 2rem;
 }
 
-/* Post content styling */
+.post-title {
+  color: #f7931a;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.post-meta {
+  color: #f7931a;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
 .post-content {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-  line-height: 1.7;
+  color: #e6edf3;
   font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.post-content h1 {
+  color: #f7931a;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f7931a;
+  padding-bottom: 0.5rem;
+}
+
+.post-content h2 {
+  color: #ffa726;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h3 {
+  color: #ffb74d;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.post-content p {
+  margin-bottom: 1.2rem;
+  color: #e6edf3;
 }
 
 .post-content img {
@@ -59,31 +117,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(247, 147, 26, 0.2);
   border: 1px solid #21262d;
-}
-
-.post-content h1 {
-  color: #f7931a;
-  border-bottom: 2px solid #f7931a;
-  padding-bottom: 0.5rem;
-  margin-top: 2rem;
-}
-
-.post-content h2 {
-  color: #ffa726;
-  margin-top: 2rem;
-}
-
-.post-content h3 {
-  color: #ffb74d;
-}
-
-.post-header h1 {
-  color: #f7931a;
-}
-
-.post-meta {
-  color: #f7931a;
-  font-weight: 500;
 }
 
 /* Links */
@@ -99,6 +132,21 @@ body {
   border-bottom: 1px solid #58a6ff;
 }
 
+/* Lists */
+.post-content ul,
+.post-content ol {
+  color: #e6edf3;
+  margin-bottom: 1.2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-content li strong {
+  color: #f7931a;
+}
+
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #f7931a;
@@ -109,12 +157,13 @@ blockquote {
   color: #e6edf3;
 }
 
-/* Code blocks */
+/* Code */
 code {
   background-color: #161b22;
   color: #e6edf3;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 pre {
@@ -123,64 +172,76 @@ pre {
   border-radius: 6px;
   padding: 1rem;
   overflow-x: auto;
+  margin: 1.5rem 0;
 }
 
-/* Lists */
-.post-content ul, .post-content ol {
-  color: #e6edf3;
-}
-
-.post-content li strong {
-  color: #f7931a;
-}
-
-/* Footer */
-.site-footer {
-  background-color: #161b22 !important;
-  border-top: 1px solid #21262d !important;
-  color: #e6edf3 !important;
-}
-
-.footer-col-wrapper {
-  color: #e6edf3;
-}
-
-.contact-list a, .social-media-list a {
-  color: #58a6ff;
-}
-
-.contact-list a:hover, .social-media-list a:hover {
-  color: #79c0ff;
+pre code {
+  background: none;
+  padding: 0;
 }
 
 /* Tables */
 table {
   background-color: #161b22;
   border: 1px solid #21262d;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
 }
 
 th, td {
   border: 1px solid #21262d;
   color: #e6edf3;
+  padding: 0.5rem;
+  text-align: left;
 }
 
 th {
   background-color: #21262d;
+  font-weight: 600;
 }
 
-/* Responsive design improvements */
-@media screen and (max-width: 768px) {
-  .post-content img {
-    margin: 1rem auto;
-  }
-  
-  .site-title {
-    font-size: 1.5rem;
-  }
+/* Footer */
+.site-footer {
+  background-color: #161b22;
+  border-top: 1px solid #21262d;
+  color: #e6edf3;
+  padding: 2rem 0;
+  margin-top: 2rem;
 }
 
-.post-content p {
-  margin-bottom: 1.2rem;
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li,
+.social-media-list li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-list a,
+.social-media-list a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.contact-list a:hover,
+.social-media-list a:hover {
+  color: #79c0ff;
 }
 
 /* License section styling */
@@ -199,48 +260,43 @@ th {
   display: inline-block;
 }
 
-/* Additional overrides for Minima theme */
-html {
-  background-color: #0d1117 !important;
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+  }
+  
+  .post-content h1 {
+    font-size: 1.6rem;
+  }
+  
+  .post-content h2 {
+    font-size: 1.4rem;
+  }
+  
+  .post-content {
+    font-size: 1rem;
+  }
+  
+  .post-content img {
+    margin: 1rem auto;
+  }
+  
+  .footer-col-wrapper {
+    flex-direction: column;
+  }
 }
 
-.page {
-  background-color: #0d1117 !important;
-}
-
-.home {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-}
-
-.post {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-}
-
-article {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-}
-
-.post-header {
-  color: #e6edf3 !important;
-}
-
-.post-title {
-  color: #f7931a !important;
-}
-
-/* Ensure all paragraphs use dark theme */
-p {
-  color: #e6edf3 !important;
-}
-
-/* Override any default link colors */
-a:not(.post-content a) {
-  color: #58a6ff !important;
-}
-
-a:not(.post-content a):hover {
-  color: #79c0ff !important;
+@media screen and (max-width: 480px) {
+  .site-title {
+    font-size: 1.4rem;
+  }
+  
+  .post-title {
+    font-size: 1.6rem;
+  }
 }
