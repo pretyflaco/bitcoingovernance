@@ -1,4 +1,4 @@
-# The Bitcoin Approach to Decentralized Governance
+# The bitcoin approach to decentralized governance
 
 ## About
 

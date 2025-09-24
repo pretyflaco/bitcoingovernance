@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Bitcoin Approach to Decentralized Governance"
+title: "The bitcoin approach to decentralized governance"
 date: 2025-09-24
 categories: bitcoin governance decentralization
 author: pretyflaco
@@ -18,7 +18,7 @@ About me: I've been studying various governance models, mostly political systems
 
 While this write-up is triggered at this time by the ongoing debate around OP_RETURN and Bitcoin Core V30 in September 2026, I will try to keep my observations as general as possible. You can think of it as a part 2 to my earlier writing ["Why Bitcoin Can Only Be As Free Open Source Software"](https://blog.fulmo.org/why-bitcoin-can-only-be-as-free-open-source-software/) from 2021. I recommend you read it before this article to see where I'm coming from when I speak of the importance of free users through free software.
 
-# let's dive in
+# Let's dive in
 
 In order to understand bitcoin's governance, it's best to clear all ideas about governance models we knew, and think of the most audacious and unique property of bitcoin that bitcoiners agree we should strive for: censorship-resistant digital money. 
 
@@ -28,15 +28,15 @@ Everything in bitcoin's governance is therefore optimized to solving for the fol
 
 Censorship-resistance requires free users.
 
-# defining freedom in bitcoin
+# Defining freedom in bitcoin
 
-## what does free mean?
+## What does free mean?
 
 When we speak of freedom in the context of bitcoin, we're not talking about the absence of rules or the ability to do whatever one wants. Rather, we're referring to a specific kind of autonomy that emerges from having genuine choice and the technical capability to exercise that choice meaningfully.
 
 Freedom, in this context, means having the power to act according to one's own judgment without being subject to arbitrary control by others. It's the difference between being told what to do and being able to evaluate options and make informed decisions. This distinction becomes crucial when we consider that censorship-resistance isn't just a technical property—it's fundamentally about preserving individual agency in the face of systems that would otherwise compromise it.
 
-## what is a free user?
+## What is a free user?
 
 A free user in bitcoin's governance model is someone who possesses both the knowledge and the technical means to make independent decisions about their participation in the network. This isn't simply about having the right to choose—it's about having the actual capability to exercise that choice in a meaningful way.
 
@@ -44,7 +44,7 @@ Free users understand the implications of the software they run, the rules they'
 
 Importantly, being a free user doesn't require being a developer or having deep technical expertise. It requires having access to the tools and information necessary to make informed decisions and the ability to act on those decisions without depending on the permission or cooperation of centralized authorities.
 
-## what does free mean in the context of software?
+## What does free mean in the context of software?
 
 Richard Stallman's definition of free software provides the foundation for understanding how software freedom enables user freedom. The four essential freedoms are:
 
@@ -55,7 +55,7 @@ Richard Stallman's definition of free software provides the foundation for under
 
 These freedoms work together to ensure that users aren't trapped by the decisions of software developers or distributors. In bitcoin's context, this means that no single implementation, no matter how dominant, can dictate the rules of the network to users who disagree with those rules.
 
-## why is free software prerequisite for free users?
+## Why is free software prerequisite for free users?
 
 Without free software, users inevitably become dependent on the decisions made by the software's controllers. If you cannot inspect, modify, or redistribute your bitcoin software, you cannot truly verify that it's acting in your interest or according to the consensus rules you want to enforce.
 
@@ -63,7 +63,7 @@ Consider what happens when users rely on proprietary software or even open-sourc
 
 Free software eliminates this chokepoint by ensuring that users always have alternatives. If Bitcoin Core makes changes you disagree with, you can run a different implementation, modify the code yourself, or work with others to create a fork. The credible threat of user exit disciplines all implementations and prevents any single group from accumulating too much power over the network.
 
-## is free software sufficient to make free users?
+## Is free software sufficient to make free users?
 
 Free software is necessary but not sufficient for creating free users. Having access to source code doesn't automatically make someone capable of understanding it, modifying it, or making informed decisions about it. There's a critical difference between theoretical freedom and practical freedom.
 
@@ -73,7 +73,7 @@ However, what matters isn't that every user can personally audit every line of c
 
 Freedom exists on a gradient rather than as an absolute state. Even users who cannot personally audit code benefit enormously from the fact that others can and do, and that alternatives exist if the current implementation fails to serve their needs.
 
-## what should users do with their freedoms?
+## What should users do with their freedoms?
 
 Having freedom means nothing if it's not exercised responsibly. Free users have an obligation—both to themselves and to the network—to remain informed about proposed changes, to think critically about the implications of those changes, and to make decisions based on their understanding of what will preserve bitcoin's essential properties.
 
@@ -81,9 +81,9 @@ This doesn't mean that every user needs to become a full-time bitcoin researcher
 
 The exercise of freedom also requires accepting responsibility for the consequences of one's choices. In traditional governance systems, citizens can often blame their representatives for bad outcomes. In bitcoin's model, free users bear direct responsibility for the consensus rules they choose to enforce.
 
-# the relationship between freedom and censorship-resistance
+# The relationship between freedom and censorship-resistance
 
-## censorship-resistance is a direct consequence of free users
+## Censorship-resistance is a direct consequence of free users
 
 When users are genuinely free to choose which software to run and which rules to enforce, censorship becomes practically impossible. Even if miners, developers, exchanges, or governments attempt to impose changes that users disagree with, free users can simply refuse to accept those changes.
 
@@ -91,7 +91,7 @@ This refusal doesn't require coordinated action or formal voting mechanisms. It 
 
 The beauty of this system is that it doesn't rely on the goodwill or benevolence of any particular group. It's a system that works even when some participants are actively trying to subvert it, because the freedom of individual users to opt out provides a natural check on any attempt at centralized control.
 
-## free users are a prerequisite for censorship-resistance
+## Free users are a prerequisite for censorship-resistance
 
 This relationship works in both directions. Just as free users enable censorship-resistance, censorship-resistance cannot exist without free users. Any system that compromises user freedom necessarily opens pathways for censorship.
 
@@ -99,7 +99,7 @@ If users cannot freely choose which software to run, then whoever controls that 
 
 This is why attempts to make bitcoin "easier" or "more user-friendly" by reducing user control are ultimately self-defeating. They may solve short-term usability problems, but they do so by undermining the very property that makes bitcoin valuable in the first place.
 
-## the deliberate difficulty of freedom
+## The deliberate difficulty of freedom
 
 The bitcoin governance model places significant demands on its users. It requires them to stay informed, to think critically, and to take responsibility for their choices. It offers no guarantees that the "right" decisions will be made, only that users will be free to make their own decisions and live with the consequences.
 
@@ -107,7 +107,7 @@ Bitcoin's inherent complexity serves a crucial purpose. Simple systems typically
 
 Moreover, this difficulty creates natural incentives for users to educate themselves and to seek out reliable sources of information. It encourages the development of a community of informed participants who can help guide decisions and provide expertise where needed.
 
-# creating and educating free users
+# Creating and educating free users
 
 The creation of free users cannot be rushed or forced. It emerges through a process of patient education and the gradual development of tools and resources that make freedom more accessible.
 
@@ -117,7 +117,7 @@ Free users will make the right choice for themselves and for the network. This i
 
 This doesn't mean that every individual user will make perfect decisions, or that the network will never face challenges from poor choices. It means that the aggregate behavior of free users, over time, will tend toward preserving bitcoin's essential characteristics because those characteristics are what make bitcoin valuable to them.
 
-## the primacy of user choice
+## The primacy of user choice
 
 The "right" choice in bitcoin's context is not determined by any external authority or objective standard. It's the choice that preserves the properties that users value about bitcoin. Only free users can determine what those properties are and how best to preserve them.
 
@@ -125,7 +125,7 @@ This is why technical experts, no matter how knowledgeable or well-intentioned, 
 
 The genius of bitcoin's governance model is that it aligns individual choice with network preservation. Users who want bitcoin to remain censorship-resistant will choose software and rules that maintain that property. Users who prefer other properties may make different choices, but the network's evolution will reflect the aggregate of all these individual decisions.
 
-# what does this mean for bitcoin developers?
+# What does this mean for bitcoin developers?
 
 Bitcoin core developers (developers working on bitcoin implementations like Bitcoin Core, libbitcoin, Bitcoin Knots, btcd) occupy a unique and delicate position in this governance model. While they have significant influence over the implementation that many users run, they are ultimately servants of user freedom rather than authorities over the network.
 
@@ -141,7 +141,7 @@ Developers working on bitcoin implementations should also actively support the d
 
 Finally, developers must accept that free users may sometimes make choices that seem technically suboptimal or even harmful. The appropriate response is not to override those choices, but to provide better information and tools that might lead to different choices in the future. The ultimate arbiter of what's best for bitcoin is not technical analysis but user preference as expressed through their software choices.
 
-# the faith required for bitcoin governance
+# The faith required for bitcoin governance
 
 There is a leap of faith required in bitcoin's governance model. We must trust that when users are given genuine freedom and access to good information, they will make choices that preserve what makes bitcoin valuable.
 
