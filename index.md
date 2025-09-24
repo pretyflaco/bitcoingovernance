@@ -168,3 +168,7 @@ Join the conversation about this article:
 - 🟣 [Nostr discussion](https://damus.io/nevent1qqsypt0plwheeawsxtnmpfytjc4wf3ww97a0a2cu3m00tyg3mjj3qsgf9ta36)
 - 🐦 [Twitter thread](https://x.com/_pretyflaco/status/1970804074674049484)
 - ⚡ [Stacker News discussion](https://stacker.news/items/1234973)
+
+---
+
+**Original post:** [YakiHonne](https://www.yakihonne.com/article/naddr1qqyrgefnxsmnzvrzqgsyl7u8496thdf0etrn0duu99wqglv34nkcjgashpvd7l9dy2q32lcrqsqqqa28gryl2n)
