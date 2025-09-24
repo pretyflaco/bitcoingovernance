@@ -3,9 +3,16 @@
 
 @import "minima";
 
-/* Custom styling for Bitcoin governance site */
+/* Cool Dark Theme for Bitcoin Governance Site */
+
+/* Dark theme base */
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
 
 .site-header {
+  background-color: #161b22;
   border-bottom: 2px solid #f7931a;
 }
 
@@ -14,29 +21,59 @@
   font-weight: 600;
 }
 
+.site-nav .page-link {
+  color: #e6edf3;
+}
+
+.site-nav .page-link:hover {
+  color: #f7931a;
+}
+
+/* Main content area */
+.page-content {
+  background-color: #0d1117;
+}
+
+.wrapper {
+  background-color: #0d1117;
+}
+
+/* Post content styling */
+.post-content {
+  background-color: #0d1117;
+  color: #e6edf3;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
 .post-content img {
   display: block;
   margin: 2rem auto;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(247, 147, 26, 0.2);
+  border: 1px solid #21262d;
 }
 
 .post-content h1 {
-  color: #2c3e50;
+  color: #f7931a;
   border-bottom: 2px solid #f7931a;
   padding-bottom: 0.5rem;
   margin-top: 2rem;
 }
 
 .post-content h2 {
-  color: #34495e;
+  color: #ffa726;
   margin-top: 2rem;
 }
 
 .post-content h3 {
-  color: #7f8c8d;
+  color: #ffb74d;
+}
+
+.post-header h1 {
+  color: #f7931a;
 }
 
 .post-meta {
@@ -44,28 +81,86 @@
   font-weight: 500;
 }
 
+/* Links */
+.post-content a {
+  color: #58a6ff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.post-content a:hover {
+  color: #79c0ff;
+  border-bottom: 1px solid #58a6ff;
+}
+
+/* Blockquotes */
 blockquote {
   border-left: 4px solid #f7931a;
-  background-color: #fef9e7;
+  background-color: #161b22;
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
   font-style: italic;
+  color: #e6edf3;
 }
 
-.post-list-heading {
-  color: #2c3e50;
-  border-bottom: 2px solid #f7931a;
-  padding-bottom: 0.5rem;
+/* Code blocks */
+code {
+  background-color: #161b22;
+  color: #e6edf3;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
 }
 
-.post-link {
-  color: #2c3e50 !important;
-  text-decoration: none;
-  font-weight: 600;
+pre {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
 }
 
-.post-link:hover {
-  color: #f7931a !important;
+/* Lists */
+.post-content ul, .post-content ol {
+  color: #e6edf3;
+}
+
+.post-content li strong {
+  color: #f7931a;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #161b22;
+  border-top: 1px solid #21262d;
+  color: #e6edf3;
+}
+
+.footer-col-wrapper {
+  color: #e6edf3;
+}
+
+.contact-list a, .social-media-list a {
+  color: #58a6ff;
+}
+
+.contact-list a:hover, .social-media-list a:hover {
+  color: #79c0ff;
+}
+
+/* Tables */
+table {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+}
+
+th, td {
+  border: 1px solid #21262d;
+  color: #e6edf3;
+}
+
+th {
+  background-color: #21262d;
 }
 
 /* Responsive design improvements */
@@ -79,24 +174,22 @@ blockquote {
   }
 }
 
-/* Typography improvements */
-.post-content {
-  line-height: 1.7;
-  font-size: 1.1rem;
-}
-
 .post-content p {
   margin-bottom: 1.2rem;
 }
 
-/* Button styling for links */
-.post-content a {
-  color: #f7931a;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.2s ease;
+/* License section styling */
+.post-content hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #21262d, transparent);
+  margin: 2rem 0;
 }
 
-.post-content a:hover {
-  border-bottom: 1px solid #f7931a;
+/* Special styling for license badge */
+.post-content img[src*="licensebuttons.net"] {
+  margin: 0.5rem 0;
+  box-shadow: none;
+  border: none;
+  display: inline-block;
 }
