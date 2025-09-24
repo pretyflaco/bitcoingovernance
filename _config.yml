@@ -1,0 +1,45 @@
+# Site settings
+title: "The Bitcoin Approach to Decentralized Governance"
+description: "A perspective on how governance in Bitcoin works and what makes it resilient and successful"
+author: "Kasita"
+url: "https://yourusername.github.io"
+baseurl: "/bitcoingovernance"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Permalink format
+permalink: /:title/
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Social links (optional - customize as needed)
+github_username: yourusername
+twitter_username: yourtwitter
+
+# SEO settings
+lang: en_US
+
+# License information
+license:
+  name: "CC BY 4.0"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+  
+# Copyright
+copyright: "This work is licensed under CC BY 4.0"
